@@ -4,9 +4,22 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:WpfApp1.UserControls"
-             mc:Ignorable="d" 
-             d:DesignHeight="450" d:DesignWidth="800">
+             mc:Ignorable="d" Name="myTextBox">
+
+
+    <UserControl.Resources>
+        <BooleanToVisibilityConverter x:Key="boolToVis"/>
+    </UserControl.Resources>
     <Grid>
-            
+        <TextBlock Text="{Binding Path=Hint, ElementName=myTextBox}"
+                   Foreground="#868686"
+                   Margin="10 0"
+                   VerticalAlignment="Center"
+                   Panel.ZIndex="1"
+                   IsHitTestVisible="False"
+                   Visibility="{Binding ElementName=textBox,
+                   Path=Text.IsEmpty, Converter={StaticResource boolToVis}}"/>
+        <TextBox x:Name="textBox"/>
     </Grid>
+    
 </UserControl>

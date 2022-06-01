@@ -1,0 +1,12 @@
+C:\Users\Пользователь\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csprojAssemblyReference.cache
+C:\Users\Пользователь\source\repos\WpfApp1\WpfApp1\obj\Debug\MainWindow.g.cs
+C:\Users\Пользователь\source\repos\WpfApp1\WpfApp1\obj\Debug\UserControls\MyOption.g.cs
+C:\Users\Пользователь\source\repos\WpfApp1\WpfApp1\obj\Debug\UserControls\MyTextBox.g.cs
+C:\Users\Пользователь\source\repos\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+C:\Users\Пользователь\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Users\Пользователь\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+C:\Users\Пользователь\source\repos\WpfApp1\WpfApp1\obj\Debug\MainWindow.baml
+C:\Users\Пользователь\source\repos\WpfApp1\WpfApp1\obj\Debug\UserControls\MyOption.baml
+C:\Users\Пользователь\source\repos\WpfApp1\WpfApp1\obj\Debug\UserControls\MyTextBox.baml
+C:\Users\Пользователь\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+C:\Users\Пользователь\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb

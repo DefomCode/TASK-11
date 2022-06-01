@@ -3,10 +3,39 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:fa="http://schemas.fontawesome.io/icons/"
+        xmlns:uc="clr-namespace:WpfApp1.UserControls"
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Height="650" 
+        Width="1000"
+        Background="Transparent"
+        WindowStyle="None"
+        WindowStartupLocation="CenterScreen"
+        AllowsTransparency="True">
     <Grid>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <!--Левая секция-->
+        <Border Grid.Column="0" Background="#00BFFF"
+            Padding="30"
+            CornerRadius="25 0 0 25">
+            <StackPanel VerticalAlignment="Center">
+                <Image Source="C:\Users\Пользователь\source\repos\WpfApp1\WpfApp1\Images\task.png"
+                       Width="160"
+                       Height="160"
+                       Margin="0 0 0 40"/>
+                <TextBlock Text="ЭльфCom"
+                           TextAlignment="Center"
+                           FontSize="25"
+                           FontWeight="SemiBold"
+                           Foreground="White"/>
+            </StackPanel>
+        </Border>
+    
     </Grid>
 </Window>
